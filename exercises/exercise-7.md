@@ -125,6 +125,7 @@ You may checkout the skeleton branch and start working from there. You may also 
     * The new Java class needs to inherit from `DefaultUserTaskListener`
     * Override `beforeQuestionnaireResponseCreate` and set the text of the [QuestionnaireResponse](https://dsf.dev/process-development/api-v2/fhir/questionnaire-and-questionnaireresponse.html) item with linkId `binary-question` to the value of the 
       Start Task's input parameter with name `binary-question`
+    * Register the listener as a Spring Bean. `UserTaskListeners` are an `Activity`.
 
 ## Solution Verification
 ### Maven Build and Automated Tests
