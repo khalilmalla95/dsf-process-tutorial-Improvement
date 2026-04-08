@@ -15,7 +15,8 @@ In order to solve this exercise, you should have solved exercise 6 and read the 
 [User Tasks](https://dsf.dev/process-development/api-v2/guides/user-tasks-in-the-dsf.html#questionnaire-template), [Questionnaire and QuestionnaireResponse](https://dsf.dev/process-development/api-v2/fhir/questionnaire-and-questionnaireresponse.html)
 and [adding Task Output Parameters](https://dsf.dev/process-development/api-v2/guides/adding-task-parameters-to-task-profiles.html).
 
-Solutions to this exercise are found on the branch `solutions/exercise-7`. The skeleton can be found on the branch `skeleton/exercise-7`.
+Solutions to this exercise are found on the branch `solutions/exercise-7`. The skeleton can be found on the branch `skeleton/exercise-7`. It contains an entirely new process with missing pieces that will be added as part of the exercise tasks. 
+You may checkout the skeleton branch and start working from there. You may also merge the skeleton branch into the branch you were working on so far, at your own risk.
 
 ## Exercise Tasks
 1. The StructureDefinition `task-start-voting-process.xml` describes the Task resource which starts the voting process. It already has an input parameter called `binary-question` which stores 
